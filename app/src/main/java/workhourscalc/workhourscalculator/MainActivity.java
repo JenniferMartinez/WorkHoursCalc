@@ -249,6 +249,9 @@ public class MainActivity extends AppCompatActivity {
         startTime.setText("");
         endTime.setText("");
 
+        //move cursor back to the first text box
+        startTime.requestFocus();
+
     }
 
 
