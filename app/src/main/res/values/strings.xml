@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Work Hours Calculator</string>
+
+    <string-array name="time_of_day_array">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+
+</resources>
