@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     //add times of day to start time spinner
-    public void addTimesOfDayToStartTimeSpinner()
+    private void addTimesOfDayToStartTimeSpinner()
     {
 
         Spinner startTime = (Spinner) findViewById(R.id.startTimeSpinner);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //add times of day to end time spinner
-    public void addTimesOfDayToEndTimeSpinner()
+    private void addTimesOfDayToEndTimeSpinner()
     {
 
         Spinner endTime = (Spinner) findViewById(R.id.endTimeSpinner);
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //format and calculate hours
-    public void formatAndGetTimes()
+    private void formatAndGetTimes()
     {
         Spinner startTime = (Spinner) findViewById(R.id.startTimeSpinner);
         Spinner endTime = (Spinner) findViewById(R.id.endTimeSpinner);
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //add listener to submit button
-    public void addListenerToSubmitButton()
+    private void addListenerToSubmitButton()
     {
 
         Button submit = (Button) findViewById(R.id.submit);
@@ -145,15 +145,16 @@ public class MainActivity extends AppCompatActivity {
                 //display output
                 displayOutput();
 
+                //reset input values in text boxes
+                reset();
 
             }
         });
 
-
     }
 
     //check user input length
-    public String checkInputLength(String time)
+    private String checkInputLength(String time)
     {
         //check to see if time is in hh:mm format
         if( (time.length() > 0 && time.length() < 3))
@@ -167,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //calculate hours and minutes worked
-    public int calculateTime(Date startTime, Date endTime){
+    private int calculateTime(Date startTime, Date endTime){
 
         //calculate hours using unix time
         double unixTime = startTime.getTime() - endTime.getTime();
@@ -214,9 +215,39 @@ public class MainActivity extends AppCompatActivity {
         timeIn = clockInTime.getText().toString() + " "+ String.valueOf(start.getSelectedItem());
         timeOut = clockOutTime.getText().toString() + " "+ String.valueOf(end.getSelectedItem());
 
-        clockIn.setText("Start time: " + timeIn);
-        clockOut.setText("End time: " + timeOut);
-        hoursWorked.setText("You have worked for " + totalHoursWorked + " hours and " + totalMinutesWorked +" minutes.");
+        //only show output if both start and end times are entered by user
+        if(!userInputEmpty())
+        {
+            clockIn.setText("Start time: " + timeIn);
+            clockOut.setText("End time: " + timeOut);
+            hoursWorked.setText("You have worked for " + totalHoursWorked + " hours and " + totalMinutesWorked +" minutes.");
+
+        }
+    }
+
+    //checks to see if user input is empty or not
+    private boolean userInputEmpty()
+    {
+        EditText clockInTime = (EditText) findViewById(R.id.clockInTime);
+        EditText clockOutTime = (EditText) findViewById(R.id.clockOutTime);
+
+        if(clockInTime.getText().toString().length() != 0 && clockOutTime.getText().toString().length() != 0){
+            return false;
+        }
+
+        //return true if text boxes are empty
+        return true;
+    }
+
+    //resets the start and end times inputted by the user after the submit button is clicked
+    private void reset()
+    {
+        EditText startTime = (EditText) findViewById(R.id.clockInTime);
+        EditText endTime = (EditText) findViewById(R.id.clockOutTime);
+
+        //reset current input values once submit button is clicked
+        startTime.setText("");
+        endTime.setText("");
 
     }
 
