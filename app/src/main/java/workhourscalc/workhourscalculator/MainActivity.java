@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -19,10 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
     TextView clockIn, clockOut, hoursWorked;
     int totalHoursWorked, totalMinutesWorked;
-//    Spinner startTime = (Spinner) findViewById(R.id.startTime);
-//    Spinner endTime = (Spinner) findViewById(R.id.endTime);
+//  Spinner startTime = (Spinner) findViewById(R.id.startTime);
+//  Spinner endTime = (Spinner) findViewById(R.id.endTime);
     String timeIn, timeOut;
 
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,6 +141,13 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if(userInputEmpty())
+                {
+                    //show error message for invalid inputs
+                    Toast error = Toast.makeText(getBaseContext(),"Error: Input not valid", Toast.LENGTH_SHORT);
+                    error.show();
+                }
 
                 //retrieve values and calculate
                 formatAndGetTimes();
