@@ -14,7 +14,6 @@ public class CustomOnItemSelectedListener implements AdapterView.OnItemSelectedL
         //when selecting an item
         String item = parent.getItemAtPosition(position).toString();
 
-
     }
 
     public void onNothingSelected(AdapterView<?> arg0) {}
