@@ -38,7 +38,7 @@
                 android:layout_width="70dp"
                 android:hint="9:30"
                 android:layout_height="wrap_content"
-                android:inputType="datetime"
+                android:inputType="time"
                 android:id="@+id/clockInTime"
                 android:maxLength="5"
                 android:textSize="25sp"
@@ -71,7 +71,7 @@
             <EditText
                 android:layout_width="68dp"
                 android:layout_height="wrap_content"
-                android:inputType="datetime"
+                android:inputType="time"
                 android:hint="1:00"
                 android:id="@+id/clockOutTime"
                 android:maxLength="5"
@@ -132,6 +132,7 @@
         android:text="Submit"
         android:id="@+id/submit"
         android:textSize="20sp"
+
 
       />
 

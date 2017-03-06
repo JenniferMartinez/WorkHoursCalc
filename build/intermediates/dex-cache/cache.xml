@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="2994e9e1959a68e14ab4bc72429307375b30bc05">
+        sha1="aaa793dfc7c88023c24fefc6bd187dfe166b99f4">
         <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0cd39e7e671b232e523d4bda170f190172bac1c7/classes.dex" />
     </item>
     <item
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="959e3600f18eea539c19d9ffdceccaa3c6d895e5">
+        sha1="b46afd62efe41127fca751c459f736e980360cb6">
         <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2595c9a2ebeb93c6488b5e926cf9a5922982ef0/classes.dex" />
     </item>
     <item
