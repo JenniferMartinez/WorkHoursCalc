@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
     TextView clockIn, clockOut, hoursWorked;
     int totalHoursWorked, totalMinutesWorked;
-//  Spinner startTime = (Spinner) findViewById(R.id.startTime);
-//  Spinner endTime = (Spinner) findViewById(R.id.endTime);
     String timeIn, timeOut;
 
     private static final String TAG = "MainActivity";
@@ -34,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner startTimeSpinner = (Spinner) findViewById(R.id.startTimeSpinner);
         Spinner endTimeSpinner = (Spinner) findViewById(R.id.endTimeSpinner);
-//        EditText clockInTime = (EditText) findViewById(R.id.clockInTime);
-//        EditText clockOutTime = (EditText) findViewById(R.id.clockOutTime);
 
         //populate spinners
         addTimesOfDayToStartTimeSpinner();
@@ -112,8 +108,6 @@ public class MainActivity extends AppCompatActivity {
         //get user input values
         timeIn = timeIn + " "+ String.valueOf(startTime.getSelectedItem());
         timeOut = timeOut + " "+ String.valueOf(endTime.getSelectedItem());
-
-//        SimpleDateFormat militaryFormat = new SimpleDateFormat("HH:mm");
 
         SimpleDateFormat timeFormat = new SimpleDateFormat("h:mm a");
 
