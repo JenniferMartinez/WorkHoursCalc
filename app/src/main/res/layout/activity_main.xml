@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please Choose Hours Worked"
+        android:text="@string/choose_hours_worked"
         android:textStyle="bold"
         android:textSize="20sp" />
 
@@ -77,10 +77,6 @@
                 android:entries="@array/time_of_day_array">
             </Spinner>
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:visibility="gone"/>
 
         </LinearLayout>
 
@@ -100,7 +96,7 @@
             android:id="@+id/clockIn"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="Start time: Not Selected"
+            android:text="@string/start_time_not_selected"
             android:padding="5dp" />
 
         <TextView
@@ -109,14 +105,14 @@
             android:id="@+id/clockOut"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="Stop time: Not Selected"
+            android:text="@string/end_time_not_selected"
             android:padding="5dp" />
     </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:text="@string/submit"
         android:id="@+id/submit"
         android:textSize="20sp"
         android:padding="15dp" />

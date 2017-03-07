@@ -3,30 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/Users/jenny/.android/build-cache/d6c7999edae3ff0474cc2154a3983c8f0a8b225c/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_8e50fcc68596f666e19a29cf246909d7daa9821e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_423d7fa9b7c313b92e8ee64a4335f35bec2f3a2c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a81f0232322d0e45a630239f9a91a796e7f6a23b">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0cd39e7e671b232e523d4bda170f190172bac1c7/classes.dex" />
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cbac15ee6820f52b42b19327de4260413b6cb548/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,120 +21,147 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/f94a0a6b0381fba68ea766b10300f98649ad840e/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_95eed9f0d96cdb842b589c08429053a796572139/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/90572ab1ca94065bb67307739c9b055f387d320e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_85f29fbfe5d7364fc3302d4d57b16cce909cf1e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/4c9c939f687da5510aaed806f66a329d3b21f304/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b59b84ddee3f09c62e68bb30248cceb8ed529f46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/d6c7999edae3ff0474cc2154a3983c8f0a8b225c/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_599836ef11b613605edae7a910bfac2dea284fc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/baf8a3fb8d61d36104701d644c7933f20a8afdff/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dd5d68ddc3b603ad1de9243791e4459e9ad77186/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_734634c39762990ff6c614b4c554d910470ed4c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81fc86d248cd05bc4e056065692ed7b9221e129d">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0cd39e7e671b232e523d4bda170f190172bac1c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/ea3fc1ff7c52a8b4d99cbc8a6d30398053848bf8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_96af77df91a8b8a3a4f7858a0afef1e4a808c05d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/a98334ee156ed55310fdeabf993792244c47852c/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0b4b3d1c3c65a3bae014bee887ceb2bec1dff007/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="5d5cb22df97ac31ad229054468bfe4634b312dc4">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2595c9a2ebeb93c6488b5e926cf9a5922982ef0/classes.dex" />
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d2595c9a2ebeb93c6488b5e926cf9a5922982ef0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/jenny/.android/build-cache/a98334ee156ed55310fdeabf993792244c47852c/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8e9f19419386a5d4eb36f9c1b0b7f8cb8703a9b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_45a577ff81f1c4f8555ad5948b85c550ab7d38ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_d3202edef1ffe75d9c29313be2947eccd38bd3f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_9477380496bd7e8c1177bf5531319baa365ef80f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_00f57eb86085338c92e85da959bcb15fe9641858/classes.dex" />
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_264c99c749975c478fdffcc1397b64d8f11d3b00/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jar="/Users/jenny/.android/build-cache/1a8f6e63ddbb95567b3a9dbd21312e0999a5ce17/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_fd9c35b6bce4805e7e1679fc0a86f295c8f0b5d9/classes.dex" />
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ffa095320e3629eac851c3d3955f21a48a92d68b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jar="/Users/jenny/.android/build-cache/4c9c939f687da5510aaed806f66a329d3b21f304/output/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_28d9504db9d554224f89fe42af5ac9c2e3a0d31e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8965b41789bfbbe2e596d683b704f3edcaa8625d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_798f7bdcfae7c83a0b0e8c6ef5fe860102b14ce0/classes.dex" />
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fe754545aad975b5106b9feb252cae5061aaf701/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/jenny/.android/build-cache/d2ca9a88911fbd53f2150410d138ef0440561597/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6c902e1b5168a30972634a51a83c1c4b3c40935a/classes.dex" />
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d3c76d9cd6d51119ff887c430c7b6f125e987e0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/Users/jenny/.android/build-cache/90572ab1ca94065bb67307739c9b055f387d320e/output/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_673904dedbf101b350df91d30a7141a77969e7bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_178f8a8ccb29d46f0f4633db5933b1d362a01a88/classes.dex" />
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b2509cefa47d136b4afa0016aa938642b4044a96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jenny/.android/build-cache/f94a0a6b0381fba68ea766b10300f98649ad840e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/jenny/AndroidStudioProjects/WorkHoursCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_07e522ef6e8fd34ddf7b9daa09d123ca49801837/classes.dex" />
     </item>
 
 </items>
